@@ -16,7 +16,7 @@ if (NOT DEFINED CMAKE_BUILD_TYPE)
 endif()
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC")
+set(CMAKE_CXX_FLAGS "-std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC ${CMAKE_CXX_FLAGS}")
 
 set(CC_OPTIMIZE "-O3")
 
